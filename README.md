@@ -12,10 +12,6 @@ This is a simple Flask application dockerized and automated with GitHub Actions 
 - [Triggering the Workflow](#triggering-the-workflow)
 - [Accessing the Application](#accessing-the-application)
 - [Troubleshooting](#troubleshooting)
-- [License](#license)
-- [Contributing](#contributing)
-- [Acknowledgments](#acknowledgments)
-
 ---
 
 ## Prerequisites
