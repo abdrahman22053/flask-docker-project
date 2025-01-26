@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, Docker!'
+    return 'Hello, Docker ! This is a simple Flask web application running in a Docker container.'
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
