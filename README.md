@@ -70,7 +70,7 @@ To allow GitHub Actions to push to Docker Hub, you need to set up secrets in you
    3. Navigate to **Account Settings** > **Security** > **New Access Token**.
    4. Create a new access token with the following permissions:
       - **Read**, **Write**, **Delete** (for full access to push and manage images).
-   5. Copy the generated token. This will be your Docker Hub password for authentication.
+   5. Copy the generated token. This will be your Docker Hub **password** for authentication.
 
 
 #### Step 2: Add Secrets to GitHub
