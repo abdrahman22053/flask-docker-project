@@ -88,7 +88,19 @@ To allow GitHub Actions to push to Docker Hub, you need to set up secrets in you
    - Ensure the secrets are correctly added under **Settings** > **Secrets and variables** > **Actions**.
    - These secrets will be used by the GitHub Actions workflow to authenticate with Docker Hub.
 
+### Triggering the Workflow
 
+The workflow is automatically triggered when you push to the ```main``` branch. To trigger it manually:
+   1. Make changes to your code.
+   2. Commit and push to the main branch:
+   
+      ```git add .```
+      ```git commit -m "Your commit message"```
+      ```git push origin main```
+
+   3. Check the workflow status:
+      - Go to the Actions tab in your GitHub repository.
+      - Verify that the workflow runs successfully.
 
 ### Troubleshooting
 
